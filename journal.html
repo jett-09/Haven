@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Journal 📝 Aathmika's Corner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐱</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lunari.css">
+  <style>
+    #journalText {
+      width:100%; min-height:280px; padding:16px 18px;
+      background:rgba(27,14,85,0.5); backdrop-filter:blur(10px);
+      border:1px solid rgba(176,160,255,0.3); border-radius:18px;
+      color:var(--lavender); font-family:'Nunito',sans-serif;
+      font-size:0.97rem; line-height:1.7; outline:none; resize:vertical;
+      transition:border 0.25s, box-shadow 0.25s; margin-bottom:14px;
+    }
+    #journalText:focus { border-color:var(--magical-violet); box-shadow:0 0 0 3px rgba(139,116,255,0.25); }
+    #journalText::placeholder { color:rgba(176,160,255,0.4); }
+    .save-row { display:flex; align-items:center; gap:14px; }
+    .save-btn {
+      padding:11px 28px; border:none; border-radius:50px;
+      background:linear-gradient(135deg,var(--magical-violet),var(--dream-purple));
+      color:white; font-family:'Nunito',sans-serif; font-size:0.95rem; font-weight:700;
+      cursor:pointer; box-shadow:0 4px 20px rgba(139,116,255,0.45); transition:all 0.25s;
+    }
+    .save-btn:hover { transform:scale(1.05); }
+    #saveNote { font-size:0.85rem; color:var(--star-glow); font-weight:600; opacity:0; transition:opacity 0.3s; }
+    #saveNote.visible { opacity:1; }
+    .header-row{display:flex;align-items:center;gap:.8rem;margin-bottom:1.5rem;}
+    .header-icon{font-size:2rem;}
+  </style>
+</head>
+<body>
+<div id="kitten-cursor"></div>
+<a href="index.html" class="brand-tag">🐱 Aathmika's Corner ✨</a>
+<div id="bg">
+  <div class="moon"></div>
+  <div class="cloud c1"></div><div class="cloud c2"></div><div class="cloud c3"></div>
+  <div class="star-field" id="stars"></div>
+</div>
+<div id="app" style="justify-content:flex-start;padding-top:80px;">
+  <div class="header-row">
+    <span class="header-icon">📝</span>
+    <div>
+      <h1 class="page-title">Your Journal</h1>
+      <p class="page-sub">Write anything, it's just for you 🌙</p>
+    </div>
+  </div>
+  <div class="lunari-card" style="width:100%;">
+    <textarea id="journalText" placeholder="Write anything..."></textarea>
+    <div class="save-row">
+      <button class="save-btn sparkable" onclick="saveJournal()">Save ✨</button>
+      <p id="saveNote"></p>
+    </div>
+  </div>
+  <a href="index.html" class="back-link">← Back to Corner</a>
+</div>
+<script src="lunari.js"></script>
+<script src="script.js"></script>
+<script>
+  const _orig = saveJournal;
+  saveJournal = function() {
+    _orig();
+    const n = document.getElementById('saveNote');
+    n.classList.add('visible');
+    setTimeout(() => n.classList.remove('visible'), 2500);
+  }
+</script>
+</body>
+</html>

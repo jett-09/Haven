@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Playlist 🎧 Aathmika's Corner</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐱</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lunari.css">
+  <style>
+    .playlist-section { margin-bottom:28px; }
+    .playlist-section:last-child { margin-bottom:0; }
+    .playlist-label {
+      font-family:'Quicksand',sans-serif; font-weight:700; font-size:1rem;
+      color:var(--dream-purple); margin-bottom:10px;
+      display:flex; align-items:center; gap:8px;
+    }
+    iframe {
+      width:100%; height:152px; border-radius:16px; border:none; display:block;
+      box-shadow:0 4px 20px rgba(27,14,85,0.5); transition:transform 0.25s, box-shadow 0.25s;
+    }
+    iframe:hover { transform:translateY(-3px); box-shadow:0 10px 32px rgba(139,116,255,0.35); }
+    .pl-divider { height:1px; background:linear-gradient(90deg,transparent,rgba(176,160,255,0.25),transparent); margin:24px 0; }
+    .header-row{display:flex;align-items:center;gap:.8rem;margin-bottom:1.5rem;}
+    .header-icon{font-size:2rem;}
+  </style>
+</head>
+<body>
+<div id="kitten-cursor"></div>
+<a href="index.html" class="brand-tag">🐱 Aathmika's Corner ✨</a>
+<div id="bg">
+  <div class="moon"></div>
+  <div class="cloud c1"></div><div class="cloud c2"></div><div class="cloud c3"></div>
+  <div class="star-field" id="stars"></div>
+</div>
+<div id="app" style="justify-content:flex-start;padding-top:80px;">
+  <div class="header-row">
+    <span class="header-icon">🎧</span>
+    <div>
+      <h1 class="page-title">Playlists From Karan</h1>
+      <p class="page-sub">Handpicked just for you 🎵✨</p>
+    </div>
+  </div>
+  <div class="lunari-card" style="width:100%;">
+    <div class="playlist-section">
+      <div class="playlist-label">🎵 Miss Me</div>
+      <iframe src="https://open.spotify.com/embed/playlist/27BqtNsEpcyCiNthRghfES"></iframe>
+    </div>
+    <div class="pl-divider"></div>
+    <div class="playlist-section">
+      <div class="playlist-label">🎵 Vibesss</div>
+      <iframe src="https://open.spotify.com/embed/playlist/0WkbAVPxwLpPvDLM9PbZmv"></iframe>
+    </div>
+    <div class="pl-divider"></div>
+    <div class="playlist-section">
+      <div class="playlist-label">🎵 Southern Sentinel</div>
+      <iframe src="https://open.spotify.com/embed/playlist/4sqPAMu2AWYKNDcW2rOr4j"></iframe>
+    </div>
+    <div class="pl-divider"></div>
+    <div class="playlist-section">
+      <div class="playlist-label">🎵 90s Legacy</div>
+      <iframe src="https://open.spotify.com/embed/playlist/37uzKPS8fPoDBwy4eqa1Oz"></iframe>
+    </div>
+  </div>
+  <a href="index.html" class="back-link">← Back to Corner</a>
+</div>
+<script src="lunari.js"></script>
+</body>
+</html>
