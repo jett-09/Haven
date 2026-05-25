@@ -47,72 +47,113 @@ music.play()
 
 const messages = [
 
-"Wanna be me ? just make jokes on me and laugh (Enjoy kiddo).",
+"Hey. Put the phone down. Go drink some water. I'll still be annoying when you get back.",
 
-"Sometimes all you need is a breather. Step outside and breathe, J.",
+"You're allowed to have a bad day. You're not allowed to have it alone.",
 
-"It's alright bud. Everything will be alright and if it's not, I'll punch it into the right shape.",
+"I know you're strong. I've seen it. But even strong people get to sit down sometimes.",
 
-"You'll always be Aathmika but sometimes you need to be Fatima too.",
+"Stop overthinking. Your brain is lying to you again. It does that.",
 
-"You don't have to carry the weight of the world on your shoulders, go and live for yourself, do things that make you happy",
+"You don't have to be okay right now. Just be here. That's enough.",
 
-"Being with you is the easiest choice I have ever made, and I'm so lucky I get to make it every day.",
+"Missing me? Bold of you to have good taste.",
 
-"You know sometimes instead of shouting in anger, just stare at them like they are dead.",
+"I'm not going anywhere. Not because I can't, but because I genuinely don't want to.",
 
-"It's okay to cry sometimes alright and it's okay to crashout and curse people, it's okay to call me an asshole when I annoy you. But it's not okay that you we smile together and you cry alone.",
+"You can be sad. You can be tired. You can be a complete mess. I signed up for all of it.",
 
-"Don't worry about the future, it's not here yet. Don't worry about the past, it's already gone. Just live in the present and make it beautiful.",
+"Go outside for five minutes. Not to fix anything. Just to remember the world is bigger than whatever is in your head right now.",
 
-"Remember, it's okay to talk when you need it. You don't have to go through everything alone."
+"You make everything better just by existing. Annoying but true.",
 
+"Talk to me. Or don't. Either way I'm here making bad jokes until you smile.",
+
+"You're not a burden. You're the whole point.",
+
+"Eat something. Drink water. Rest. I know you haven't done at least one of those today.",
+
+"I don't need you to be strong right now. I just need you to be you.",
+
+"Whatever it is, we'll figure it out. We always do. We're kind of annoyingly good at that.",
+
+"Stop being so hard on yourself. That's my job and even I don't do it.",
+
+"You've survived every bad day so far. That's a hundred percent success rate.",
+
+"I miss you when you're sad because I can't reach you there. Come back.",
+
+"You don't have to explain yourself to me. I already get it.",
+
+"Some days are just trash. That's not failure, that's just a Tuesday.",
+
+"I'd pick you on your worst day over anyone else on their best. That's just facts.",
+
+"You're allowed to need people. Especially me. I actually like being needed by you.",
+
+"Breathe. Not the shallow kind. A real one. Right now. I'll wait.",
+
+"Hey. I see you. Even when you think you're invisible.",
 ]
 
 
 const puns = [
 
-"What happens to an illegally parked frog? It gets toad away.",
+"Doctor: 'You need to stop eating so much chocolate and wine.' Me: 'I need a second opinion.' Doctor: 'Fine. Your outfit is also terrible.'",
 
-"Knock, knock. Who's there? Ayatollah. Ayatollah who? Ayatollah you already.",
+"Doctor said I need to watch my drinking. Now I do it in front of a mirror.",
 
-"Why do seagulls fly over the sea? If they flew over the bay, they would be bagels.",
+"Doctor: 'How's your sleep?' Me: 'I fall asleep fine. I wake up at 3am and mentally replay every embarrassing thing I've done since 2009.' Doctor: '...I'll need a bigger notepad.'",
 
-"Why don't cats play poker in the jungle? Too many cheetahs.",
+"Doctor told me I need to reduce stress. I laughed for ten minutes. He wrote something down. I think it concerned him.",
 
-"Why do comedians love telling jokes to ducks? They always quack up..",
+"Doctor: 'Any history of mental illness in the family?' Me: 'I have a group chat with them. Does that count?'",
 
-"Knock, knock. Who's there? Abyss. Abyss who? I miss you too.",
+"Doctor asked me to rate my pain from one to ten. I said 'emotionally or physically?' She pulled up a chair. We were there a while.",
 
-"What's the difference between a Maserati and a dead body? I don't have a Maserati in my garage.",
+"Doctor told me I need more iron. So now I do absolutely nothing but feel guilty about it with more energy.",
 
-"What do you call fake spaghetti? An impasta.",
+"Knock knock. Who's there? Dishes. Dishes who? Dishes the police — just kidding, it's the laundry you've been ignoring for four days.",
 
-"Patient: Doctor, I broke my arm in two places. Doctor: Stop going to those places.",
+"Knock knock. Who's there? Opportunity. Opportunity who? Exactly. You almost didn't answer. That's your whole pattern.",
 
-"Why don't skeletons fight each other? They don't have the guts.",
+"Knock knock. Who's there? Wine. Wine who? Wine are you still awake at 2am? Same reason you are.",
 
-"What do you call an alligator detective? An investi-gator.",
+"Knock knock. Who's there? Closure. Closure who? Exactly. You never get the full sentence either.",
 
-"Today at the bank, an old lady asked me to help check her balance. So I pushed her over.",
+"Knock knock. Who's there? Adore. Adore who? Adore is between us so open up, I have snacks and zero plans to leave.",
 
-"Why did the scarecrow win an award? Because he was outstanding in his field.",
+"Knock knock. Who's there? Butter. Butter who? Butter check your phone, your mother texted seven times and she says it's not urgent which means it's very urgent.",
 
-"Why did the math book look sad? Too many problems.",
+"Knock knock. Who's there? Atch. Atch who? Bless you. Also, go to the doctor. Also, drink water. Also, are you okay?",
 
-"It's important to have a strong grasp on vocabulary. I mean, if I'd known the difference between \"antidote\" and \"anecdote,\" one of my best friends would still be alive.",
+"Knock knock. Who's there? Cow says. Cow says who? No silly, cow says MOO — but honestly after a full day of meetings I relate to both.",
 
-"You don't need a parachute to go skydiving. You need a parachute to go skydiving twice.",
+"My skincare routine has twelve steps. Step one through eleven is convincing myself to start, Step twelve is going to bed without doing it.",
 
-"I visited my friend at his new house. He told me to make myself at home, so I threw him out. I hate visitors.",
+"My bank account and my confidence have one thing in common — both drop the moment I enter a mall.",
 
-"I just got fired from the keyboard factory. They said I wasn't putting in enough shifts.",
+"Men say women are hard to understand. Sir, you put the milk back with one sip left in it.",
 
-"Yesterday, I couldn't figure out whether someone was waving at me or the person behind me. In other news, I lost my lifeguarding job..",
+"I asked my boyfriend to fix one thing in the house. We now have a hammer on the coffee table and a YouTube tutorial paused on TV.",
 
-"Doctor: \"Which do you want first, the good news or the bad news? Patient: Give me the good news. Doctor: You're about to have a disease named after you.",
+"Being a mom means never going to the bathroom alone again. Even the dog follows me. I have no privacy. The plants feel me.",
 
-"I tried to catch fog yesterday. Mist."
+"Motherhood is saying 'because I said so' and slowly hearing your own mother's voice come out of your body.",
+
+"I put 'detail-oriented' on my resume. My desk has three mugs, a lip balm I lost six months ago, and a sticky note that just says 'NO.'",
+
+"My performance review said I 'work well independently.' That's corporate for 'she doesn't need us and it's a little intimidating.'",
+
+"I have a love-hate relationship with email. I hate it. It loves showing up.",
+
+"I joined a Zoom call on mute for twenty minutes. Nobody noticed. I may not exist.",
+
+"I cook five days a week. Day one: real meal. Day two: leftovers. Day three: leftovers of leftovers. Day four: cereal. Day five: wine IS a food group.",
+
+"I'm on a seafood diet. I see food, I feel guilty, I eat it anyway, yes, it's a diet.",
+
+"I stress-ate an entire family-size bag of chips alone. The family size was a suggestion. I don't take suggestions.",
 
 ]
 
